@@ -1,5 +1,4 @@
-# kafka_java
-
+# kafka-java
 Custom Kafka Producer and Consumer apps.
 
 Article: <https://www.javaworld.com/article/3060078/big-data/big-data-messaging-with-kafka-part-1.html>
@@ -77,16 +76,14 @@ Start and keep running the Kafka service. What directory must you be in?
 
 Open PowerShell as Administrator in the root project folder, start the original consumer app:
 
-```PowerShell
-java -cp target/kafka-case-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri.isl.professorcase.kafka.CustomConsumer
+``` java -cp .\target\kafka_java-1.0-SNAPSHOT-jar-with-dependencies.jar com.raghavendar.nwmsu.CustomConsumer
 ```
 
 ## 4 - Start Producer
 
 Open a new PowerShell as Administrator in the root project folder, start the Producer app using topic test:
 
-```PowerShell
-java -cp target/kafka-case-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri.isl.professorcase.kafka.CustomProducer
+``` java -cp .\target\kafka_java-1.0-SNAPSHOT-jar-with-dependencies.jar com.raghavendar.nwmsu.CustomProducer
 ```
 
 ## Test Communications
